@@ -1,38 +1,38 @@
 [
     {
         "id": "1",
-        "Name": "Shahed",
-        "Review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
-        "Ratings": "4.5"
+        "name": "Shahed",
+        "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
+        "ratings": "4.5"
     },
     {
         "id": "2",
-        "Name": "Faisal",
-        "Review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
-        "Ratings": "4.3"
+        "name": "Faisal",
+        "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
+        "ratings": "4.3"
     },
     {
         "id": "3",
-        "Name": "Shadhin",
-        "Review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
-        "Ratings": "4.00"
+        "name": "Shadhin",
+        "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
+        "ratings": "4.00"
     },
     {
         "id": "4",
-        "Name": "Labib",
-        "Review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
-        "Ratings": "4.8"
+        "name": "Labib",
+        "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
+        "ratings": "4.8"
     },
     {
         "id": "5",
-        "Name": "Billal",
-        "Review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
-        "Ratings": "4.2"
+        "name": "Billal",
+        "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
+        "ratings": "4.2"
     },
     {
         "id": "6",
-        "Name": "Imran",
-        "Review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
-        "Ratings": "4.9"
+        "name": "Imran",
+        "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
+        "ratings": "4.9"
     }
 ]

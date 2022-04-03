@@ -1,8 +1,12 @@
 import React from 'react';
 import images from '../../../images/coverPic.png';
+import EachReview from '../../EachReview/EachReview';
+import motoCard from '../../hook/useMotoCard';
 import './Home.css'
 
 const Home = () => {
+
+    const [moto, setMoto] = motoCard();
     return (
         <div className='hommy'>
             <h2>This is home</h2>
@@ -16,12 +20,24 @@ const Home = () => {
                     <p>Your Enjoyment is our Happinesss!!..</p>
                     <button>Live Demo</button>
 
+                    <h3>moto: {moto.length}</h3>
+
                 </div>
                 <div>
 
                     <img src={images} alt="" />
 
                 </div>
+            </div>
+
+            <div>
+                {
+                    moto.map(review => <EachReview
+
+                        key={review.id}
+                        review={review}
+                    ></EachReview>)
+                }
             </div>
         </div>
     );
