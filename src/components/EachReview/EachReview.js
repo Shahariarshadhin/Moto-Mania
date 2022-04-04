@@ -1,12 +1,13 @@
 import React from 'react';
+import './EachReview.css'
 
 const EachReview = (props) => {
     const { name, review, ratings } = props.review;
     return (
-        <div>
-            <h3>Name :{name} </h3>
-            <h4>Review : {review}</h4>
-            <h4>Ratings :{ratings}</h4>
+        <div className='review-section'>
+            <h3>Name : {name} </h3>
+            <p><b>Review :</b> {review}</p>
+            <p><b>Ratings :</b> {ratings}</p>
         </div>
     );
 };

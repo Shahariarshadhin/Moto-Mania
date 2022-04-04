@@ -30,7 +30,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div>
+            <div className='review-box'>
                 {
                     moto.map(review => <EachReview
 
