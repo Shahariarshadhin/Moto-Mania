@@ -1,37 +1,37 @@
 [
     {
         "id": "1",
-        "name": "Shahed",
+        "name": "Andy",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
         "ratings": "4.5"
     },
     {
         "id": "2",
-        "name": "Faisal",
+        "name": "Smith",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
         "ratings": "4.3"
     },
     {
         "id": "3",
-        "name": "Shadhin",
+        "name": "Maxwell",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
         "ratings": "4.00"
     },
     {
         "id": "4",
-        "name": "Labib",
+        "name": "Sinha",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
         "ratings": "4.8"
     },
     {
         "id": "5",
-        "name": "Billal",
+        "name": "Dhoni",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
         "ratings": "4.2"
     },
     {
         "id": "6",
-        "name": "Imran",
+        "name": "Shakib",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
         "ratings": "4.9"
     }

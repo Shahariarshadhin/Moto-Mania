@@ -1,5 +1,6 @@
 .hommy{
     margin-left: 20px;
+    
 }
 .home{
     display: grid;
@@ -17,5 +18,34 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
     text-align: start;
+    margin: 40px;
+    
+    
+}
+
+.see-review-btn a{
+    text-decoration: none;
+    border: 2px solid lightgrey;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: rgb(49, 135, 233);
+    color: aliceblue;
+   
+}
+.see-review-btn{
+    margin: 40px;
+}
+.bisque{
+    color: blue;
+    font-weight: bolder;
+}
+
+.demo-btn{
+    background-color: rgb(143, 178, 241);
+    padding: 5px 25px;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid rgb(80, 80, 224);
+
     
 }

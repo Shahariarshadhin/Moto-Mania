@@ -10,7 +10,7 @@ const Reviews = () => {
     console.log(moto)
     return (
         <div>
-            <h2>This is review page</h2>
+            <h2>What Our Customers Say!!</h2>
 
             <div className='review-box'>
                 {

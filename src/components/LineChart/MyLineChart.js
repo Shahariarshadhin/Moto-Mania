@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Line, LineChart, XAxis, YAxis } from 'recharts';
+import { Line, LineChart, XAxis, YAxis, CartesianGrid } from 'recharts';
+import './MyLineChart.css'
 
 const MyLineChart = () => {
     const [line, setLine] = useState([]);
@@ -14,14 +15,17 @@ const MyLineChart = () => {
     return (
 
 
-        <LineChart width={300} height={300} data={line}>
+        <div className='lineChart'>
+            <h3>Month Wise Sell</h3>
+            <LineChart width={500} height={300} data={line}>
 
+                <Line dataKey={'sell'}></Line>
+                <YAxis></YAxis>
+                <XAxis dataKey={'month'}></XAxis>
+                <CartesianGrid stroke="#ccc" />
 
-            <Line dataKey={'sell'}></Line>
-            <YAxis></YAxis>
-            <XAxis dataKey={'month'}></XAxis>
-
-        </LineChart>
+            </LineChart>
+        </div>
 
 
     );
