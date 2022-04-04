@@ -7,6 +7,7 @@ import EachReview from '../EachReview/EachReview';
 const Reviews = () => {
 
     const [moto, setMoto] = useMotoCard();
+    console.log(moto)
     return (
         <div>
             <h2>This is review page</h2>
