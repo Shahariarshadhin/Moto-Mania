@@ -1,36 +1,44 @@
 [
     {
         "id": "1",
-        "name": "Andy",
+        "img": "https://static.toiimg.com/thumb/msid-77574167,imgsize-58872,width-400,resizemode-4/77574167.jpg",
+        "name": "Dhoni",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
-        "ratings": "4.5"
+        "ratings": "4.2"
     },
+  
     {
         "id": "2",
-        "name": "Smith",
+        "img": "https://www.varietyinsight.com/images/honoree/Dwayne_Johnson.png",
+        "name": "Rock",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
         "ratings": "4.3"
     },
     {
         "id": "3",
-        "name": "Maxwell",
+        "img": "https://www.pinkvilla.com/files/styles/amp_metadata_content_image/public/mission_-impossible-7-crew-calls-tom-cruise-a-nightmare.jpg",
+        "name": "Tom Cruise",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
         "ratings": "4.00"
     },
     {
         "id": "4",
-        "name": "Sinha",
+        "img": "https://i.insider.com/5196779169beddd10900000c?width=1000&format=jpeg&auto=webp",
+        "name": "David Beckham",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
         "ratings": "4.8"
     },
     {
         "id": "5",
-        "name": "Dhoni",
+        "img" :"https://m.media-amazon.com/images/M/MV5BMjkwMDE4MzQtZWZjMi00MWY2LWI0OGMtNzY4MDVkZjJlM2YwXkEyXkFqcGdeQXVyMjM5NzU4Mjk@._V1_.jpg",
+        "name": "Andy",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
-        "ratings": "4.2"
+        "ratings": "4.5"
     },
+ 
     {
         "id": "6",
+        "img": "https://www.daily-sun.com/assets/news_images/2021/08/16/Shakib-Al-Hasan-ds-1.jpg",
         "name": "Shakib",
         "review": "The Product is good.It is a fresh product and there is no problem i can find in this product.",
         "ratings": "4.9"
