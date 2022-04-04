@@ -1,7 +1,7 @@
 import React from 'react';
 import './AreaChart.css'
 import { useState, useEffect } from 'react';
-import { Area, AreaChart, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
+import { Area, AreaChart, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
 
 const MyAreaChart = () => {
 
@@ -34,6 +34,7 @@ const MyAreaChart = () => {
                 </defs>
                 <XAxis dataKey="month" />
                 <YAxis />
+                <Legend></Legend>
                 <CartesianGrid strokeDasharray="3 3" />
                 <Tooltip />
                 <Area type="monotone" dataKey="investment" stroke="#8884d8" fillOpacity={1} fill="url(#colorUv)" />

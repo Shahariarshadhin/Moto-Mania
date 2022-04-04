@@ -32,6 +32,10 @@
     color: aliceblue;
    
 }
+
+.see-review-btn a:hover{
+    color: orange;
+}
 .see-review-btn{
     margin: 40px;
 }

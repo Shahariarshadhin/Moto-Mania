@@ -6,6 +6,10 @@
     background-color: rgb(245, 234, 221);
 
 }
+.review-section:hover{
+    background-color: bisque;
+}
+
 
 .review-section img{
     width: 80px;

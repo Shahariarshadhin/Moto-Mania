@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Line, LineChart, XAxis, YAxis, CartesianGrid } from 'recharts';
+import { Line, LineChart, XAxis, YAxis, CartesianGrid, Legend } from 'recharts';
 import './MyLineChart.css'
 
 const MyLineChart = () => {
@@ -22,6 +22,7 @@ const MyLineChart = () => {
                 <Line dataKey={'sell'}></Line>
                 <YAxis></YAxis>
                 <XAxis dataKey={'month'}></XAxis>
+                <Legend></Legend>
                 <CartesianGrid stroke="#ccc" />
 
             </LineChart>
